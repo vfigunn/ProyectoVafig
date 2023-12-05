@@ -1,0 +1,37 @@
+*{
+    background-color: rgb(155, 177, 55); 
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    text-align: center;
+}
+h1{
+    margin-top: 5px;
+    padding: 5px;
+}
+
+h2{
+    padding-top: 50px;
+}
+
+input{
+    display: flex;
+}
+
+
+.rol{
+    padding: 10px;
+    color: black;
+    font-size: 30px;
+}
+
+.menu {
+    text-align: end;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
