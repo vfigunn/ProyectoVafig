@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 65px;
+}
+
+.aplica-ya{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    background-color: grey;
+    padding: 10px 30px;
+    border: 2px solid rgba(0,0,0,0.5);
+    border-radius: 20px;
+}
+
+.aplica-ya:hover{
+    color: black;
+    background-color: white;
+}
+
+
+nav {
+    text-align: center;
+}
+
+header {
+    text-align: center;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient( 0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5) ) ,url(Carpeta2/images/entrenamientohero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.img-inicio{
+    background-image: url(Carpeta2/images/entrenamientohero.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.container{
+    width: 100vw;
+    background-color: rgb(84, 90, 95);
+    display: flex;
+}
+
+.img-container{
+    background-image: url(Carpeta2/images/entrenamientohero.jpg);
+    background-size: cover;
+    display: block;
+    background-position: center center;
+    height: 500px;
+    width: 400px;
+}
+
+#somos-vafig{
+    width: 50%;
+    height: 50%;
+    font-size: 1.8em;
+    padding: 50px 0px 0px 100px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#description{
+    font-size: 0.80em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+textarea {
+    resize: none;
+}
