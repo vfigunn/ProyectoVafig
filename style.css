@@ -7,6 +7,11 @@ body {
     margin: 0;
 }
 
+#logo {
+    width: 130px;
+    height: 50%;
+}
+
 h1{
     font-size: 65px;
 }
@@ -29,6 +34,7 @@ h1{
 
 nav {
     text-align: center;
+    justify-content: center;
 }
 
 header {
