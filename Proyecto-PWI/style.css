@@ -1,10 +1,6 @@
-*{
-    box-sizing: border-box;
-}
+*{box-sizing: border-box;}
 
-html{
-    scroll-behavior: smooth;
-}
+html{scroll-behavior:smooth;}
 
 body{
     font-family: "Roboto", sans-serif;
@@ -17,7 +13,6 @@ h3{font-size: 2em;}
 p{font-size: 1.25em;}
 ul{list-style: none;}
 li{font-size: 1.25em;}
-
 button{
     font-size: 1.25em;
     font-weight: bold;
@@ -28,22 +23,17 @@ button{
     color: white;
     background-color: grey;
 }
-
 button:hover{
     color: rgb(0, 0, 0);
     background-color: white;
 }
-
 .container {
     max-width: 1400px;
     margin: auto;
 }
-
 .color-acento{color: grey;}
 
-header{
-    background-color: rgb(245, 245, 245);
-}
+header{background-color: rgb(245, 245, 245);}
 
 header .logo {
     margin: 0;
@@ -52,31 +42,26 @@ header .logo {
     color: grey;
     font-size: 1.45em;
 }
-
 header .container{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
 header nav{
     display: flex;
     flex-direction: column;
     text-align: center;
     padding-bottom: 25px;
 }
-
 header a{
     padding: 5px 12px;
     text-decoration: none;
     font-weight: bold;
     color: black;    
 }
-
 header a:hover{
     color: grey;
 }
-
 #main{
     display: flex;
     align-items: center;
@@ -94,38 +79,28 @@ header a:hover{
     background-size: cover;
 }
 
-#main h1{
-    color: white;
-}
+#main h1{color: white;}
 
-#main button{
-    font-size: 1.3em;
-}
-
+#main button{font-size: 1.3em;}
 #somos-vafig .container{
     text-align: center;
     padding: 200px 12px;
 }
-
 #nuestros-productos{
     background-color: rgb(30, 30, 30);
     color: white;
     text-align: center;
 }
-
 #nuestros-productos .container{
     padding: 150px 12px;
 }
-
 #nuestros-productos h2{
     margin-top: 0;
     font-size: 3.2em;
 }
-
 #nuestros-productos p{
     display: none;
 }
-
 #nuestros-productos .carta{
     background-position: center center;
     background-size: cover;
@@ -133,7 +108,6 @@ header a:hover{
     margin: 20px;
     border-radius: 15px;
 }
-
 .carta:first-child{
     background-image: linear-gradient(
         0deg,
@@ -142,7 +116,6 @@ header a:hover{
     )
     ,url(https://blog.smartfit.com.mx/wp-content/uploads/2019/11/SF_NOV19_BLOG_DIA_28-1024x853.png);
 }
-
 .carta:nth-child(2){
     background-image: linear-gradient(
         0deg,
@@ -151,7 +124,6 @@ header a:hover{
     )
     ,url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSadyLXwvmM27JgV9WcbkzUA7ZCpsP6G61n1vxcTk23HelIrs8TQCF4-fvCGwDexPSvehQ&usqp=CAU);
 }
-
 .carta:nth-child(3){
     background-image: linear-gradient(
         0deg,
@@ -160,17 +132,14 @@ header a:hover{
     )
     ,url(https://careertraining.ed2go.com/common/images/2/22603/GES146-NASM-Cert-Personal-Trainer-and-Exam-Prep-Prog-Vouc-935x572.jpg);
 }
-
 #caracteristicas .container{
     text-align: center;
     padding: 200px 12px;
 }
-
 #caracteristicas li{
     margin: 16px 0px;
     font-weight: bold;
 }
-
 #final{
     display: flex;
     flex-direction: column;
@@ -181,26 +150,21 @@ header a:hover{
     color: white;
     height: 80vh;
 }
-
 #final h2{
     font-size: 3em;
 }
-
 #final button {
     font-size: 1.5em;
 }
-
 footer{
     background-color: rgb(230, 230, 230);
 }
-
 footer p{
     margin: 0;
     padding: 12px;
     color: rgb(100, 100, 100);
     font-size: .85em;
 }
-
 footer .container{
     height: 150px;
     display: flex;
@@ -217,26 +181,21 @@ footer .container{
         flex-direction: row;
         justify-content: space-between;
     }
-
     header nav{
         flex-direction: row;
         padding-bottom: 0;
         padding-right: 20px;
     }
-
     #main h1{
         font-size: 5em;
     }
-
     #main button{
         font-size: 1.75em;
     }
-
     #somos-vafig .container{
         display: flex;
         justify-content: space-evenly;
     }
-
     #somos-vafig .texto{
         width: 50%;
         max-width: 600px;
@@ -246,11 +205,9 @@ footer .container{
         flex-direction: column;
         justify-content: center;
     }
-
     #somos-vafig h2{
         margin-top: 0px;
     }
-
     #somos-vafig .img-container{
         background-image: url(https://hips.hearstapps.com/hmg-prod/images/mh-trainer-2-1533576998.png);
         background-size: cover;
@@ -258,53 +215,42 @@ footer .container{
         height: 500px;
         width: 400px;
     }
-
     #nuestros-productos .productos{
         display: flex;
         justify-content: center;
     }
-
     #nuestros-productos p{
         display: block;
         margin-bottom: 30px;
     }
-
     #nuestros-productos h2{
         font-size: 3.3em;
     }
-
     #nuestros-productos h3{
         margin-top: 0;
     }
-
     #nuestros-productos .carta{
         padding: 50px;
         box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     }
-
     #caracteristicas{
         background-image: url(https://www.mypthub.net/wp-content/uploads/54-1024x576.png);
         background-repeat: no-repeat;
         background-size: 600px 400px;
         background-position: calc(100vw - 700px) 120px;
     }
-
     #caracteristicas .container{
         text-align: initial;
     }
-
     #caracteristicas ul{
         margin-left: 100px;
     }
-
     #final h2{
         font-size: 5em;
     }
-
     #final button{
         font-size: 2em;
     }
-
     footer .container{
         justify-content: center;
     }
