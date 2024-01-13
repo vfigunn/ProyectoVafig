@@ -6,8 +6,8 @@ html{
     scroll-behavior: smooth;
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
+body{
+    font-family: "Roboto", sans-serif;
     margin: 0;
 }
 
@@ -16,39 +16,41 @@ h2{font-size: 2.7em;}
 h3{font-size: 2em;}
 p{font-size: 1.25em;}
 ul{list-style: none;}
+li{font-size: 1.25em;}
 
 button{
-    font-size: 1.5em;
+    font-size: 1.25em;
     font-weight: bold;
-    padding: 10px 30px;
-    border-radius: 10px;
-    border: 2px solid rgba(0, 0, 0, 0.5);
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     color: white;
-    background-color: #8a2be2;
+    background-color: grey;
 }
 
 button:hover{
-    background-color: rgb(101, 33, 165);
+    color: rgb(0, 0, 0);
+    background-color: white;
 }
 
-.container{
+.container {
     max-width: 1400px;
     margin: auto;
 }
 
-.color-acento{color:blueviolet}
+.color-acento{color: grey;}
 
 header{
     background-color: rgb(245, 245, 245);
 }
 
-header .logo{
+header .logo {
     margin: 0;
     padding: 25px 30px;
     font-weight: bold;
-    color: blueviolet;
-    font-size: 1.6em;
+    color: grey;
+    font-size: 1.45em;
 }
 
 header .container{
@@ -68,99 +70,95 @@ header a{
     padding: 5px 12px;
     text-decoration: none;
     font-weight: bold;
-    color: black;
+    color: black;    
 }
 
 header a:hover{
-    color: blueviolet;
+    color: grey;
 }
 
-#hero{
+#main{
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     flex-direction: column;
     height: 90vh;
-    color: white;
     background-image: linear-gradient(
-        0deg, 
+        0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
-    ) 
-    ,url("media/entrenamientohero.jpg");
+    )
+    ,url(https://i0.wp.com/abitus.com.ar/wp-content/uploads/2023/02/entrenamiento-funcional-para-hipertrofia-1020x680-1.jpg?fit=1020%2C680&ssl=1);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
 }
 
-#hero h1{
+#main h1{
     color: white;
 }
 
-#hero button{
-    font-size: 1.75em;
+#main button{
+    font-size: 1.3em;
 }
 
-#somos-vafig.container{
+#somos-vafig .container{
     text-align: center;
     padding: 200px 12px;
-
 }
 
-#nuestros-programas{
+#nuestros-productos{
     background-color: rgb(30, 30, 30);
     color: white;
-    text-align: center
+    text-align: center;
 }
 
-#nuestros-programas .container{
+#nuestros-productos .container{
     padding: 150px 12px;
 }
 
-#nuestros-programas h2{
+#nuestros-productos h2{
     margin-top: 0;
-    font-size: 3em;
+    font-size: 3.2em;
 }
 
-#nuestros-programas p{
+#nuestros-productos p{
     display: none;
 }
 
-#nuestros-programas .carta{
-    background-position: center;
+#nuestros-productos .carta{
+    background-position: center center;
     background-size: cover;
     padding: 50px;
     margin: 20px;
     border-radius: 15px;
-
 }
 
-.carta:first-child {
+.carta:first-child{
     background-image: linear-gradient(
-        0deg, 
+        0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
-    ) 
-    ,url("media/entrenamientohero.jpg");
+    )
+    ,url(https://blog.smartfit.com.mx/wp-content/uploads/2019/11/SF_NOV19_BLOG_DIA_28-1024x853.png);
 }
 
 .carta:nth-child(2){
     background-image: linear-gradient(
-        0deg, 
+        0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
-    ) 
-    ,url("media/entrenamientohero.jpg");
+    )
+    ,url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSadyLXwvmM27JgV9WcbkzUA7ZCpsP6G61n1vxcTk23HelIrs8TQCF4-fvCGwDexPSvehQ&usqp=CAU);
 }
 
 .carta:nth-child(3){
     background-image: linear-gradient(
-        0deg, 
+        0deg,
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
-    ) 
-    ,url("media/entrenamientohero.jpg");
+    )
+    ,url(https://careertraining.ed2go.com/common/images/2/22603/GES146-NASM-Cert-Personal-Trainer-and-Exam-Prep-Prog-Vouc-935x572.jpg);
 }
 
 #caracteristicas .container{
@@ -169,11 +167,11 @@ header a:hover{
 }
 
 #caracteristicas li{
-    margin: 12px 0px;
+    margin: 16px 0px;
     font-weight: bold;
 }
 
-#final {
+#final{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -182,24 +180,25 @@ header a:hover{
     background-color: rgb(30, 30, 30);
     color: white;
     height: 80vh;
-
 }
 
 #final h2{
-    font-size: 9vw;
+    font-size: 3em;
 }
 
-#final button{
-    font-size: 5vw;
+#final button {
+    font-size: 1.5em;
 }
 
 footer{
     background-color: rgb(230, 230, 230);
 }
+
 footer p{
     margin: 0;
     padding: 12px;
     color: rgb(100, 100, 100);
+    font-size: .85em;
 }
 
 footer .container{
@@ -209,13 +208,11 @@ footer .container{
     align-items: flex-end;
 }
 
-@media (min-width: 720px){
-
-    header{
+@media (min-width: 720px) {
+    header {
         position: fixed;
         width: 100%;
     }
-
     header .container{
         flex-direction: row;
         justify-content: space-between;
@@ -227,10 +224,14 @@ footer .container{
         padding-right: 20px;
     }
 
-    #hero h1{
+    #main h1{
         font-size: 5em;
     }
-    
+
+    #main button{
+        font-size: 1.75em;
+    }
+
     #somos-vafig .container{
         display: flex;
         justify-content: space-evenly;
@@ -239,8 +240,8 @@ footer .container{
     #somos-vafig .texto{
         width: 50%;
         max-width: 600px;
-        text-align: initial;
         padding-left: 30px;
+        text-align: initial;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -251,35 +252,40 @@ footer .container{
     }
 
     #somos-vafig .img-container{
-        background-image: url("media/entrenamientohero.jpg");
+        background-image: url(https://hips.hearstapps.com/hmg-prod/images/mh-trainer-2-1533576998.png);
         background-size: cover;
         background-position: center center;
         height: 500px;
         width: 400px;
     }
 
-    #nuestros-programas .programas{
+    #nuestros-productos .productos{
         display: flex;
         justify-content: center;
     }
 
-    #nuestros-programas p{
+    #nuestros-productos p{
         display: block;
         margin-bottom: 30px;
     }
 
-    #nuestros-programas h3{
+    #nuestros-productos h2{
+        font-size: 3.3em;
+    }
+
+    #nuestros-productos h3{
         margin-top: 0;
     }
 
-    #nuestros-programas .carta{
-        padding: 15px;
+    #nuestros-productos .carta{
+        padding: 50px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     }
 
     #caracteristicas{
-        background-image: url("media/entrenamientohero.jpg");
+        background-image: url(https://www.mypthub.net/wp-content/uploads/54-1024x576.png);
         background-repeat: no-repeat;
-        background-size: 500px 400px ;
+        background-size: 600px 400px;
         background-position: calc(100vw - 700px) 120px;
     }
 
@@ -297,15 +303,9 @@ footer .container{
 
     #final button{
         font-size: 2em;
-    } 
+    }
 
     footer .container{
-        justify-content: flex-end;
-    }
-}
-
-@media (min-width: 1200px){
-    #caracterisitcas{
-        background-position-x: calc(100vw - 800px) ;
+        justify-content: center;
     }
 }
